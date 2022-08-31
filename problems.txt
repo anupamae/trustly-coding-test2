@@ -1,0 +1,55 @@
+Problem 1
+=========
+
+Display a list of all the bank accounts with the total number of deposits, and the number of deposits of over 50 money.
+
+ bankaccountid | count | count 
+---------------+-------+-------
+            50 |     2 |     0
+            51 |     3 |     3
+            52 |     5 |     3
+            53 |     3 |     2
+            54 |     4 |     3
+            55 |     0 |     0
+
+Problem 2
+=========
+
+Display information about the bankaccountid with the least deposits and the one with the most deposits.
+
+ bankaccountid | userid | balance | ndeposits 
+---------------+--------+---------+-----------
+            52 |    110 |    40.0 |         5
+            55 |    130 |     0.0 |         0
+
+Problem 3
+=========
+
+Display the id and amount of the biggest three deposits (based on the amount) for all bank accounts.
+
+ bankaccountid | bankdepositid | amount 
+---------------+---------------+--------
+            50 |             1 |   50.0
+            50 |            13 |   23.0
+            51 |             8 |  130.0
+            51 |            12 |   62.0
+            51 |             2 |   55.0
+            52 |            10 |   67.0
+            52 |             9 |   61.0
+            52 |             3 |   51.0
+            53 |             7 |  120.0
+            53 |             6 |  101.0
+            53 |            16 |   24.0
+            54 |            11 |   64.0
+            54 |             5 |   53.0
+            54 |             4 |   52.0
+
+
+Problem 4
+=========
+
+Display a list of all bank deposits which were done within 30 minutes of another deposit to the same account from the same user.
+
+ bankdepositid | bankaccountid | userid 
+---------------+---------------+--------
+            14 |            52 |    130
