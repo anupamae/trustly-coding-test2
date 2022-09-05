@@ -1,0 +1,6 @@
+postgres=# \cd /Users/anu/Projects/TrustlyCodingTest2/
+postgres=# \i install.sql
+postgres=# \i problem1.sql
+postgres=# \i problem2.sql
+postgres=# \i problem3.sql
+postgres=# \i problem4.sql
